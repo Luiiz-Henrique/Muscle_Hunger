@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Muscle_Hunger.iml" filepath="$PROJECT_DIR$/.idea/modules/Muscle_Hunger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Muscle_Hunger.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

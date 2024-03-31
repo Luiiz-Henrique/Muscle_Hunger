@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/anton</item>
+    </array>
+    <color name="black">#121111</color>
+    <color name="brown">#8B4513</color>
+    <color name="green">#6B8F24</color>
+    <color name="green_">#608020</color>
+    <color name="grey">#5B5B5B</color>
+    <color name="grey_">#995B5B5B</color>
+    <color name="ic_launcher_background">#6B8F24</color>
+    <color name="off_white">#F5F5F5</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFA500</color>
+    <string name="RS">"R$ "</string>
+    <string name="app_name">Muscle Hunger</string>
+    <string name="gcm_defaultSenderId" translatable="false">499304408098</string>
+    <string name="google_api_key" translatable="false">AIzaSyCY6kAuWgAL_bTxOj02IK9woNhaItGrs5I</string>
+    <string name="google_app_id" translatable="false">1:499304408098:android:2ab017e7a4c71075b2d67b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCY6kAuWgAL_bTxOj02IK9woNhaItGrs5I</string>
+    <string name="google_storage_bucket" translatable="false">muscle-hunger.appspot.com</string>
+    <string name="message_error_document_not_found">Order document not found.</string>
+    <string name="message_error_getting_document">Error getting documents: </string>
+    <string name="project_id" translatable="false">muscle-hunger</string>
+    <string name="text_bar_menu">Cardápio</string>
+    <string name="text_bar_payment">Realizar Pagamento</string>
+    <string name="text_btn_add_order">Adicionar ao Pedido</string>
+    <string name="text_btn_screen_order_accomplish">Realizar pedido</string>
+    <string name="text_btn_screen_order_add">Adicionar mais itens</string>
+    <string name="text_btn_screen_payment_continue">Continuar pedindo</string>
+    <string name="text_btn_screen_payment_payment">Realizar pagamento</string>
+    <string name="text_credit_card_method_screen_payment">Cartão de crédito</string>
+    <string name="text_debit_card_method_screen_payment">Cartão de débito</string>
+    <string name="text_money_method_screen_payment">Dinheiro</string>
+    <string name="text_payment_methods_screen_payment">Formas de pagamento</string>
+    <string name="text_pix_method_screen_payment">Pix</string>
+    <string name="text_placeholder_observations">Digite suas observações...</string>
+    <string name="text_tab_desserts">Sobremesas</string>
+    <string name="text_tab_drinks">Bebidas</string>
+    <string name="text_tab_entries">Entradas</string>
+    <string name="text_tab_main_dishes">Pratos Principais</string>
+    <string name="text_toast_no_orders_placed">Faça ao menos um pedido!</string>
+    <string name="text_toast_screen_order_accomplish">Seu pedido foi enviado para o balcão do restaurante</string>
+    <string name="text_toast_screen_order_not_accomplish">Para realizar o pedido adicione ao menos um item.</string>
+    <string name="text_toast_screen_payment_success_payment">Pagamento efetuado com sucesso! Volte sempre!</string>
+    <string name="text_total_price">Total</string>
+    <string name="text_view_order">Ver Pedido</string>
+    <string name="title_input_observations">Observações</string>
+    <string name="title_screen_order">Seu Pedido</string>
+    <string name="title_screen_payment">Pagamento</string>
+    <style name="Base.Theme.Muscle_Hunger" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimary">@color/green</item>
+    </style>
+    <style name="Theme.Muscle_Hunger" parent="Base.Theme.Muscle_Hunger"/>
+</resources>

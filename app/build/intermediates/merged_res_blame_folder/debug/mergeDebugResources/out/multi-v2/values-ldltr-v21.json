@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.luizhenrique.muscle_hunger.app-mergeDebugResources-34:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\luizh\\.gradle\\caches\\transforms-3\\cdbfacae96d54dc98d75c187bb4abe25\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".screen_home.BarOrder">
+
+    <RelativeLayout
+        android:id="@+id/btn_view_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius"
+        android:backgroundTint="@color/yellow"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/icon_cheque_bar_order"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:src="@drawable/icon_cheque"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/quantity_total_items_order"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:fontFamily="@font/anton"
+            android:background="@drawable/circle_yellow"
+            android:gravity="center"
+            android:textColor="@color/off_white"
+            android:textSize="12sp"
+            android:layout_marginStart="11dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_order"
+            android:textSize="18sp"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RS"
+            android:textSize="16sp"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:layout_toStartOf="@id/price_total_bar_order"/>
+
+        <TextView
+            android:id="@+id/price_total_bar_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:layout_alignParentEnd="true"/>
+
+        <TextView
+            android:id="@+id/time_total_bar_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:layout_below="@id/price_total_bar_order"
+            android:layout_alignEnd="@id/price_total_bar_order"
+            android:layout_marginTop="-6dp"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+com.luizhenrique.muscle_hunger.test.app-annotation-experimental-1.3.0-0 C:\Users\luizh\.gradle\caches\transforms-3\29e87cd397053a8e02fa7105d2b8b77a\transformed\annotation-experimental-1.3.0\res
+com.luizhenrique.muscle_hunger.test.app-core-1.5.0-1 C:\Users\luizh\.gradle\caches\transforms-3\46950265654289d5dc12a554abe009f9\transformed\core-1.5.0\res
+com.luizhenrique.muscle_hunger.test.app-androidTest-2 C:\Users\luizh\AndroidStudioProjects\Muscle_Hunger2\app\build\generated\res\resValues\androidTest\debug
+com.luizhenrique.muscle_hunger.test.app-mergeDebugAndroidTestResources-3 C:\Users\luizh\AndroidStudioProjects\Muscle_Hunger2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.luizhenrique.muscle_hunger.test.app-mergeDebugAndroidTestResources-4 C:\Users\luizh\AndroidStudioProjects\Muscle_Hunger2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.luizhenrique.muscle_hunger.test.app-debugAndroidTest-5 C:\Users\luizh\AndroidStudioProjects\Muscle_Hunger2\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

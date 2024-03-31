@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/border_radius_card_item"
+    android:layout_width="match_parent"
+    android:layout_height="215dp"
+    android:layout_marginEnd="22dp"
+    android:layout_marginBottom="22dp">
+
+        <View
+            android:id="@+id/layout_card_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:src="@drawable/payment_grey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:id="@+id/name_item"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="20sp"
+            android:fontFamily="@font/anton"
+            android:textColor="@color/brown"
+            android:layout_below="@id/image_item"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/icon_clock_item"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/icon_clock"
+            android:layout_below="@id/name_item"
+            android:layout_alignStart="@id/name_item"
+            android:layout_marginTop="-2dp"
+            android:alpha="0.6"/>
+
+        <TextView
+            android:id="@+id/time_preparation_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_item"
+            android:layout_toEndOf="@id/icon_clock_item"
+            android:fontFamily="@font/anton"
+            android:textColor="@color/grey_"
+            android:textSize="14sp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginStart="5dp"/>
+
+        <View
+            android:id="@+id/line_division"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/off_white"
+            android:layout_below="@id/time_preparation_item"
+            android:layout_alignTop="@id/price_item"/>
+
+        <TextView
+            android:id="@+id/price_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:textSize="22sp"
+            android:fontFamily="@font/anton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/btn_show_popup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"/>
+
+    </RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">499304408098</string>
+    <string name="google_api_key" translatable="false">AIzaSyCY6kAuWgAL_bTxOj02IK9woNhaItGrs5I</string>
+    <string name="google_app_id" translatable="false">1:499304408098:android:2ab017e7a4c71075b2d67b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCY6kAuWgAL_bTxOj02IK9woNhaItGrs5I</string>
+    <string name="google_storage_bucket" translatable="false">muscle-hunger.appspot.com</string>
+    <string name="project_id" translatable="false">muscle-hunger</string>
+</resources>
