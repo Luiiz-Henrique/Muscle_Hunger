@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".screen_payment.ContentScreenPayment"
+    android:background="@drawable/border_radius_15dp"
+    android:backgroundTint="@color/off_white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/off_white">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_item_content_screen_payment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/item_content_screen_payment" />
+
+            <TextView
+                android:id="@+id/title_input_screen_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_payment_methods_screen_payment"
+                android:textSize="24sp"
+                android:fontFamily="@font/anton"
+                android:textColor="@color/yellow"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_pix_method_screen_payment"
+                    android:fontFamily="@font/anton"
+                    android:textSize="18sp"
+                    android:textColor="@color/grey"
+                    android:textAlignment="textStart"
+                    android:drawableEnd="@drawable/icon_pix"
+                    android:drawablePadding="15dp"
+                    android:layoutDirection="rtl"
+                    app:buttonTint="@color/yellow"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_debit_card_method_screen_payment"
+                    android:fontFamily="@font/anton"
+                    android:textSize="18sp"
+                    android:textColor="@color/grey"
+                    android:textAlignment="textStart"
+                    android:drawableEnd="@drawable/icon_card_payment"
+                    android:drawablePadding="15dp"
+                    android:layoutDirection="rtl"
+                    app:buttonTint="@color/yellow"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_credit_card_method_screen_payment"
+                    android:fontFamily="@font/anton"
+                    android:textSize="18sp"
+                    android:textColor="@color/grey"
+                    android:textAlignment="textStart"
+                    android:drawableEnd="@drawable/icon_card_payment"
+                    android:drawablePadding="15dp"
+                    android:layoutDirection="rtl"
+                    app:buttonTint="@color/yellow"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_money_method_screen_payment"
+                    android:fontFamily="@font/anton"
+                    android:textSize="18sp"
+                    android:textColor="@color/grey"
+                    android:textAlignment="textStart"
+                    android:drawableEnd="@drawable/icon_money"
+                    android:drawablePadding="15dp"
+                    android:layoutDirection="rtl"
+                    app:buttonTint="@color/yellow"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

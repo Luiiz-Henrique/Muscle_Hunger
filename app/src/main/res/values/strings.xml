@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Muscle Hunger</string>
+    <string name="RS">"R$ "</string>
+
+    <!-- Strings da tela principal: -->
+    <!-- Header: -->
+    <string name="text_tab_entries">Entradas</string>
+    <string name="text_tab_main_dishes">Pratos Principais</string>
+    <string name="text_tab_drinks">Bebidas</string>
+    <string name="text_tab_desserts">Sobremesas</string>
+    <!-- Menu bar: -->
+    <string name="text_bar_menu">Cardápio</string>
+    <string name="text_bar_payment">Realizar Pagamento</string>
+    <!-- Toast: -->
+    <string name="text_toast_no_orders_placed">Faça ao menos um pedido!</string>
+    <!-- PopUp do item: -->
+    <string name="text_btn_add_order">Adicionar ao Pedido</string>
+    <!-- Barra do pedido: -->
+    <string name="text_view_order">Ver Pedido</string>
+
+    <!-- Strings da tela de pedido: -->
+    <!-- Header: -->
+    <string name="title_screen_order">Seu Pedido</string>
+    <!-- Área de observações do conteúdo no pedido: -->
+    <string name="title_input_observations">Observações</string>
+    <string name="text_placeholder_observations">Digite suas observações...</string>
+    <!-- Menu bar: -->
+    <string name="text_total_price">Total</string>
+    <string name="text_btn_screen_order_add">Adicionar mais itens</string>
+    <string name="text_btn_screen_order_accomplish">Realizar pedido</string>
+    <!-- Toasts: -->
+    <string name="text_toast_screen_order_accomplish">Seu pedido foi enviado para o balcão do restaurante</string>
+    <string name="text_toast_screen_order_not_accomplish">Para realizar o pedido adicione ao menos um item.</string>
+
+    <!-- Strings da tela de pagamento: -->
+    <!-- Header: -->
+    <string name="title_screen_payment">Pagamento</string>
+    <!-- Área de formas de pagamento no conteúdo do pagamento: -->
+    <string name="text_payment_methods_screen_payment">Formas de pagamento</string>
+    <string name="text_pix_method_screen_payment">Pix</string>
+    <string name="text_debit_card_method_screen_payment">Cartão de débito</string>
+    <string name="text_credit_card_method_screen_payment">Cartão de crédito</string>
+    <string name="text_money_method_screen_payment">Dinheiro</string>
+    <!-- Menu bar: -->
+    <string name="text_btn_screen_payment_continue">Continuar pedindo</string>
+    <string name="text_btn_screen_payment_payment">Realizar pagamento</string>
+    <!-- Toasts: -->
+    <string name="text_toast_screen_payment_success_payment">Pagamento efetuado com sucesso! Volte sempre!</string>
+
+    <!-- Strings da requisições do firebase: -->
+    <string name="message_error_document_not_found">Order document not found.</string>
+    <string name="message_error_getting_document">Error getting documents: </string>
+
+</resources>

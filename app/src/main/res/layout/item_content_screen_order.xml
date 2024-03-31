@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:background="@color/off_white">
+
+    <ImageView
+        android:id="@+id/img_item_screen_order"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/title_item_screen_order"
+        android:layout_above="@id/ingredients_items_screen_order"
+        android:src="@drawable/menu_grey"/>
+
+    <TextView
+        android:id="@+id/title_item_screen_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="22sp"
+        android:fontFamily="@font/anton"
+        android:textColor="@color/brown"
+        android:layout_toEndOf="@id/img_item_screen_order"
+        android:layout_toStartOf="@id/content_quantity_screen_order"/>
+
+    <TextView
+        android:id="@+id/ingredients_items_screen_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/anton"
+        android:textColor="@color/grey"
+        android:layout_below="@id/title_item_screen_order"
+        android:layout_toStartOf="@id/icon_exco_screen_order"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <ImageView
+        android:id="@+id/icon_exco_screen_order"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/icon_expand_arrow"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@id/content_quantity_screen_order"
+        android:layout_alignTop="@id/ingredients_items_screen_order" />
+
+    <TextView
+        android:id="@+id/price_item_screen_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/anton"
+        android:textColor="@color/yellow"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/time_item_screen_order"
+        android:layout_marginTop="-8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:fontFamily="@font/anton"
+        android:textColor="@color/grey_"
+        android:layout_below="@id/price_item_screen_order"
+        android:layout_alignEnd="@id/price_item_screen_order"/>
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/icon_clock"
+        android:alpha="0.6"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@id/time_item_screen_order"
+        android:layout_alignTop="@id/time_item_screen_order"
+        android:layout_alignBottom="@id/time_item_screen_order"/>
+
+
+    <View
+        android:id="@+id/content_quantity_screen_order"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/border_radius_10dp"
+        android:layout_alignBottom="@id/ingredients_items_screen_order"
+        android:layout_alignEnd="@id/time_item_screen_order"/>
+
+    <ImageView
+        android:id="@+id/icon_subtract_screen_order"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/icon_subtract"
+        android:layout_marginStart="10dp"
+        android:layout_alignTop="@id/content_quantity_screen_order"
+        android:layout_alignBottom="@id/content_quantity_screen_order"
+        android:layout_alignStart="@id/content_quantity_screen_order"/>
+
+    <TextView
+        android:id="@+id/quantity_item_screen_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:fontFamily="@font/anton"
+        android:textColor="@color/yellow"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="-5dp"
+        android:layout_alignTop="@id/content_quantity_screen_order"
+        android:layout_alignBottom="@id/content_quantity_screen_order"
+        android:layout_toEndOf="@id/icon_subtract_screen_order"
+        android:layout_toStartOf="@id/icon_sum_screen_order"/>
+
+    <ImageView
+        android:id="@+id/icon_sum_screen_order"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/icon_plus_math"
+        android:layout_marginEnd="10dp"
+        android:layout_alignTop="@id/content_quantity_screen_order"
+        android:layout_alignBottom="@id/content_quantity_screen_order"
+        android:layout_alignEnd="@id/content_quantity_screen_order"/>
+
+
+</RelativeLayout>

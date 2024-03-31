@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ItemPopUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_radius_15dp"
+        android:backgroundTint="@color/off_white">
+
+        <ImageView
+            android:id="@+id/icon_close_popup"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon_close"/>
+
+        <ImageView
+            android:id="@+id/img_item_popup"
+            android:layout_width="230dp"
+            android:layout_height="180dp"
+            android:src="@drawable/menu_grey"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/icon_close_popup"/>
+
+        <TextView
+            android:id="@+id/name_item_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:fontFamily="@font/anton"
+            android:textColor="@color/brown"
+            android:layout_below="@id/img_item_popup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/time_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_"
+            android:textSize="14sp"
+            android:fontFamily="@font/anton"
+            android:layout_below="@id/name_item_popup"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="24dp"/>
+
+        <ImageView
+            android:id="@+id/icon_clock_popup"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/icon_clock"
+            android:alpha="0.6"
+            android:layout_alignStart="@id/time_popup"
+            android:layout_alignTop="@id/time_popup"
+            android:layout_alignBottom="@id/time_popup"/>
+
+        <TextView
+            android:id="@+id/ingredients_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey"
+            android:fontFamily="@font/anton"
+            android:textSize="14sp"
+            android:layout_marginHorizontal="30dp"
+            android:gravity="center"
+            android:layout_below="@id/time_popup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="20dp"/>
+
+        <TextView
+            android:id="@+id/price_item_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/anton"
+            android:textSize="22sp"
+            android:layout_below="@id/ingredients_popup"
+            android:layout_toEndOf="@+id/RS"/>
+
+        <TextView
+            android:id="@+id/price_util"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/transparent"
+            android:layout_below="@id/ingredients_popup"
+            android:layout_alignStart="@id/ingredients_popup"/>
+
+        <TextView
+            android:id="@+id/RS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RS"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/anton"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_alignTop="@id/price_item_popup"
+            android:layout_alignBottom="@id/price_item_popup"
+            android:layout_marginStart="30dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_radius_10dp"
+            android:layout_alignTop="@id/quantity_item_popup"
+            android:layout_alignBottom="@id/quantity_item_popup"
+            android:layout_alignStart="@id/icon_subtract_popup"
+            android:layout_alignEnd="@id/icon_sum_popup"/>
+
+        <ImageView
+            android:id="@+id/icon_subtract_popup"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_subtract"
+            android:paddingStart="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_alignTop="@id/quantity_item_popup"
+            android:layout_alignBottom="@id/quantity_item_popup"
+            android:layout_toStartOf="@id/quantity_item_popup"/>
+
+        <TextView
+            android:id="@+id/quantity_item_popup"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="1"
+            android:textColor="@color/yellow"
+            android:fontFamily="@font/anton"
+            android:gravity="center"
+            android:layout_toStartOf="@id/icon_sum_popup"
+            android:layout_below="@id/ingredients_popup"/>
+
+        <ImageView
+            android:id="@+id/icon_sum_popup"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_plus_math"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"
+            android:paddingRight="10dp"
+            android:layout_alignTop="@id/quantity_item_popup"
+            android:layout_alignBottom="@id/quantity_item_popup"
+            android:layout_alignParentEnd="true"/>
+
+        <View
+            android:id="@+id/btn_add_order_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_radius_15dp"
+            android:backgroundTint="@color/yellow"
+            android:layout_alignTop="@id/text_btn_add_order_popup"
+            android:layout_alignBottom="@id/text_btn_add_order_popup"/>
+
+        <TextView
+            android:id="@+id/text_btn_add_order_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_btn_add_order"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:textSize="18sp"
+            android:layout_below="@id/icon_subtract_popup"
+            android:layout_marginTop="25dp"
+            android:paddingVertical="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/price_total_item_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_alignTop="@id/text_btn_add_order_popup"
+            android:layout_alignBottom="@id/text_btn_add_order_popup"
+            android:layout_alignEnd="@id/btn_add_order_popup"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RS"
+            android:textColor="@color/off_white"
+            android:fontFamily="@font/anton"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_alignTop="@id/price_total_item_popup"
+            android:layout_alignBottom="@id/price_total_item_popup"
+            android:layout_toStartOf="@id/price_total_item_popup"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

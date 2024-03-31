@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    <color name="black">#121111</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#6B8F24</color>
+    <color name="green_">#608020</color>
+    <color name="yellow">#FFA500</color>
+    <color name="brown">#8B4513</color>
+    <color name="grey">#5B5B5B</color>
+    <color name="grey_">#995B5B5B</color>
+    <color name="off_white">#F5F5F5</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>
